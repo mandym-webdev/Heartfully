@@ -7,9 +7,13 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-<%= render partial: "layouts/header" %>
+	<header>
+		<%= render partial: "global/header" %>
+	</header>
 
-<%= yield %>
+	<div class='container'>
+		<%= yield %>
+	</div>
 
 </body>
 </html>
