@@ -32,13 +32,5 @@ Project.create([
       Based in London and already working in Kenya, Malawi, Tanzania and Zambia we have set ourselves an ambitious goal: to eradicate the kerosene lamp from Africa by 2020.",
     project_amount: 7000,
     project_pic: "http://www.solar-aid.org/assets/slides/_resampled/SetSize880382-3-boys-smiling2.jpg"
-  },
-  {
-    project_name: "Whole Planet",
-    project_location: "Asia, Africa, the Americas and the Middle East",
-    project_type: "Microfinance",
-    project_description:"Whole Planet Foundation is a private, nonprofit organization established by Whole Foods Market. We provide grants to microfinance institutions in Asia, Africa, the Americas and the Middle East, who in turn develop and offer microenterprise loan programs, training and other financial services to the self-employed poor.",
-    project_amount: 10000,
-    project_pic: "https://www.wholeplanetfoundation.org/wp-content/uploads/2014/08/smiles-.jpg"
   }
   ])
