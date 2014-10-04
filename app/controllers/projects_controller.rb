@@ -1,9 +1,8 @@
-class ProjectController < ApplicationController::Base
+class ProjectsController < ApplicationController
   def home
   	render :home
   end
 
-  # GET /projects
   def index
     @projects = Project.all
   end
