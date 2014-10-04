@@ -1,4 +1,4 @@
-class ProjectController < ActionController::Base
+class ProjectController < ApplicationController::Base
   def home
   	render :home
   end
@@ -11,6 +11,6 @@ class ProjectController < ActionController::Base
   def show
     @project = Project.find(params[:id])
   end
-  
+
 end
 

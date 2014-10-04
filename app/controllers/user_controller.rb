@@ -1,4 +1,4 @@
-class UserController < ActionController::Base
+class UserController < ApplicationController::Base
   
   # GET /user/:id
   def show
