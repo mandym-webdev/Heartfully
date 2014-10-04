@@ -19,6 +19,20 @@ header {
 		a {
 			color: pink;
 			text-decoration: none;
+			font-size: 24px;
+			text-align: right;
+		}
+
+		a:hover {
+			text-decoration: none;
+			color: pink;
+		}
+
+		img {
+			width: 15%;
+			float: left;
+			margin-top: 10px;
+			margin-left: 20px;
 		}
 }
 
@@ -33,4 +47,13 @@ header {
 h1 {
 	color: white;
 	margin: 0px;
+}
+
+nav {
+	float: right;
+	margin-right: 40px;
+	margin-top: 10px;
+		a {
+			color: #d34e70;
+		}
 }
