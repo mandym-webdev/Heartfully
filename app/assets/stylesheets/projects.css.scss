@@ -1,13 +1,24 @@
 @import "style_guide";
 
+/*PROJECT INDEX PAGE*/
+
 .projects-list {
 	text-align: center;	
 	
+	.project-glimpse {
+		padding: 0 30px;
+	}
+
 	img {
 		height: 240px;
 		width: 240px;
 		vertical-align: middle;
 	}
+}
+
+/*PROJECT SHOW PAGE*/
+#project-wrapper {
+	padding: 10px;
 }
 
 #home-wrapper {

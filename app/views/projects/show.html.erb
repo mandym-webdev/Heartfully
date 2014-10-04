@@ -1,11 +1,10 @@
-<%= @project.project_name %>
-<%= @project.project_location %>
-<%= @project.project_type %>
-<%= @project.project_description %>
-<%= @project.project_amount %>
-<%= @project.project_pic %>
+<div id='project-wrapper'>
+	<%= render partial: "projects/show" %>
 
+	<div class='row'>
+		<div class='col-md-12'>
+			<a href='/users/1' class='btn btn-lg btn-primary project-select-button'>Support This Project</a>
+		</div>
+	</div> 
 
-Hard coded line item list of project expenses/needs
-
-Kate?
+</div>
