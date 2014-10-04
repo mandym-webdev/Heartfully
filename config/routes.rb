@@ -3,6 +3,8 @@ Rails.application.routes.draw do
 
   root to: "projects#home"
 
+  get "/questionnaire" => "users#questionnaire"
+
   resources :projects
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
