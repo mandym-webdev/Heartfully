@@ -1,0 +1,27 @@
+<div id='user-wrapper'>
+
+	<div id='user-header'>
+		Welcome to <%= @user.person1_first %> and <%= @user.person2_first %>'s Wedding Registry Page
+	</div>
+
+	<div class='row featurette'>
+		<div class='col-md-6'>
+			<img class='featurette-image img-responsive' src='<%= @user.couple_pic %>'>
+		</div>
+		<div class='col-md-6'>
+			<div class='panel panel-primary'>
+				<div class='panel-heading'>
+					<h3 class='panel-title'>Our Story</h3>
+				</div>
+				<div class='panel-body'><%= @user.couple_bio %></div>
+				
+			</div>
+		</div>
+	</div>
+	
+	<div id='user-project-wrapper'>
+		<p>Our Project</p>
+		<%= render partial: "projects/show" %>
+	</div>
+
+</div>
