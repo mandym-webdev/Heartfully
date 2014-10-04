@@ -1,11 +1,12 @@
 @import "style_guide";
 
 * {
-
+	box-sizing: border-box;
 }
 
 header {
 	position: fixed;
+	background-color: #ffffff;
 	top: 0;
 	width: 100%;
 	height: 100px;

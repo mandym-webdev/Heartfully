@@ -19,7 +19,21 @@
 }
 
 #home-story {
-	h1 {
+	padding-top: 40px;
+
+	h1, h2 {
 		text-align: center;
 	}
 }
+
+.step1 {
+	float: left;
+}
+
+.home-steps {
+	width: 33.33%;
+	color: #ffffff;
+	text-align: center; 
+}
+
+
