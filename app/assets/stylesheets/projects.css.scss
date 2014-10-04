@@ -20,3 +20,31 @@
 #project-wrapper {
 	padding: 10px;
 }
+
+#home-wrapper {
+	background: url(/assets/best_photo_ever.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 590px;	
+
+}
+
+#home-story {
+	padding-top: 40px;
+
+	h1, h2 {
+		text-align: center;
+	}
+}
+
+.step1 {
+	float: left;
+}
+
+.home-steps {
+	width: 33.33%;
+	color: #ffffff;
+	text-align: center; 
+}
+
+

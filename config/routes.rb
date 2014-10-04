@@ -3,6 +3,8 @@ Rails.application.routes.draw do
 
   root to: "projects#home"
 
+  get "/questionnaire" => "users#questionnaire"
+
   resources :projects
   resources :users, only: [:show]
   # The priority is based upon order of creation: first created -> highest priority.
