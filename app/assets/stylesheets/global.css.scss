@@ -15,9 +15,21 @@ header {
 	text-decoration: none;
 	font-size: 3em;
 	color: pink;
+		a {
+			color: pink;
+			text-decoration: none;
+		}
 }
 
 .container {
+	width: 100%;
 	border: 1px solid black;
 	margin-top: 100px;
+	padding-left: .01px;
+	padding-right: .01px;
+}
+
+h1 {
+	color: white;
+	margin: 0px;
 }
