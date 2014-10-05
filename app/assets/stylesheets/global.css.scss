@@ -9,6 +9,8 @@
 	color: $header-color;
 }
 
+
+
 header {
 	z-index: 1;
 	position: fixed;
@@ -55,6 +57,15 @@ h1 {
 	padding-bottom: 5px
 }
 
- button-primary {
+.btn {
  	background-color: $emphasis-color;
+ 	border:$emphasis-color;
+}
+.panel-primary>.panel-heading {
+ 	background-color: $emphasis-color;
+ 	border-color:$emphasis-color;
  }
+
+ .panel-primary {
+border-color: $emphasis-color;
+}
